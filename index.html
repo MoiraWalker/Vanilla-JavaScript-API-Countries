@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="header-bar">
+    <a href="index.html" id="home">Countries of the World</a>
+    <div id="menu-options">
+        <a href="index.html" class="menu-option">Info</a>
+        <a href="pages/country-list-page.html" class="menu-option">List</a>
+    </div>
+</div>
+
+<div id="earth-image-container">
+    <div id="earth-image">
+        <img src= "assets/images/atsmosphere.png" id="atmosphere" alt="atmosphere" >
+        <img src="assets/images/earth.png" id="earth" alt="earth" >
+        <div id='hello-world' class="unvisible">Hello World!</div>
+    </div>
+</div>
+
+<div id="search-button-and-input">
+    <input id="search-input" type="text" placeholder="Enter country name ..." name="search">
+    <button id="search-button" type="submit">Search</button>
+</div>
+
+<div id="country-container"></div>
+
+<script src="node_modules/axios/dist/axios.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

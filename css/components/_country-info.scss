@@ -1,0 +1,55 @@
+@import "../utilities/_variables";
+
+#country-container{
+  position: absolute;
+  bottom: 10vh;
+  left: 20px;
+}
+
+#country{
+  padding: 25px;
+  background-color: $darkpurpletransparent;
+}
+
+#country-header {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: lightblue solid 2px;
+  margin-bottom: 20px;
+}
+
+#country-flag {
+  height: 25px;
+}
+
+#search-country-error-message {
+  color: red;
+}
+
+.country-animation {
+  animation-name: country;
+  animation-duration: 0.4s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes country {
+  0%   {bottom: 0px; opacity: 0;}
+  60% { opacity: 30%;}
+  100% {bottom:10vh; opacity: 100%;}
+}
+
+#error-title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: lightblue solid 2px;
+  width: 260px;
+
+}
+
+#error-text {
+  padding-bottom: 7px;
+}

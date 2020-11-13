@@ -1,0 +1,53 @@
+#worldmap-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#worldmap {
+  height: 320px;
+  padding: 20px;
+  background-color: $earthblue;
+}
+
+#worldmap-background {
+  margin-top: 20vh;
+  padding: 20px;
+  background-color: $darkpurpletransparent;
+}
+
+#countries {
+  width: 500px;
+  height: 200px;
+  position: relative;
+
+}
+
+
+.country-image  {
+  position: absolute;
+}
+
+#americas-image {
+  top:20px;
+}
+
+#europe-image{
+  left: 230px;
+  bottom: 77px;
+}
+
+#africa-image {
+  left: 220px;
+  bottom: -20px;
+}
+
+#asia-image{
+  bottom: 18px;
+  left: 268px;
+}
+
+#oceania-image{
+ left: 391px;
+  bottom: -33px;
+}

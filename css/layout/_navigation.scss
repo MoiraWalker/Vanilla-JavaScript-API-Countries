@@ -1,0 +1,45 @@
+@import "../utilities/_variables";
+
+#header-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: $mediumpurple;
+  padding: 20px 40px;
+  position: absolute;
+  width: 100vw;
+  top: 0px;
+}
+
+#home {
+  color: $lightblue;
+  font-weight: 200;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+#menu-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-option:last-child {
+  margin-right: 0;
+}
+
+.menu-option {
+  color: lightblue;
+  text-decoration: none;
+  padding-bottom: 10px;
+  margin-right: 20px;
+  box-sizing: border-box;
+}
+
+.menu-option:hover {
+  border-bottom: 2px $lightblue solid;
+  padding-bottom: 8px;
+}
+
+.menu-option:active {
+  color: $earthblue;
+}

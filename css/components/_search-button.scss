@@ -1,0 +1,56 @@
+@import "../utilities/_variables";
+
+#search-button-and-input {
+  position: absolute;
+  bottom: 10vh;
+  left: 50%;
+  margin-left: -128px;
+}
+
+#search-button {
+  background-color: $earthblue;
+  padding: 8px 10px;
+  color: white;
+  margin-left: -4px;
+}
+
+#search-input {
+  padding: 8px 10px;
+}
+
+/* Focus */
+#search-button:focus{
+  outline: none;
+}
+
+#search-input:focus + #search-button {
+  outline: 2px $earthblue solid;
+  background-color:  $earthblue;
+  color: white;
+}
+
+#search-input:focus {
+  outline: 2px $earthblue solid;
+}
+
+/* Hover */
+#search-button:hover {
+  background-color: $earthgreen;
+  color: white;
+}
+
+#search-button:hover + #search-input{
+  outline: 2px $earthblue solid;
+}
+
+#search-input:hover + #search-button{
+  background-color: $earthblue;
+  color: white;
+}
+
+
+/*active */
+#search-button:active{
+  background-color: $earthblue;
+  color: white;
+}

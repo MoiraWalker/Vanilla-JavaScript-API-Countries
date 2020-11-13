@@ -1,0 +1,61 @@
+#country-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#country-list {
+  background-color: $darkpurpletransparent;
+  margin: 40px;
+  padding: 20px;
+  width: auto;
+  height: auto;
+}
+
+#country-list-ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.country-list-item {
+  display: flex;
+  margin-bottom: 10px;
+  width: 33%;
+}
+
+.country-list-item p {
+  font-size:  10px;
+}
+
+.country-list-flag {
+  width: 20px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+
+/* country colours */
+
+.polar {
+  color: white;
+}
+
+.europe {
+  color: #9EF8FF;
+}
+
+.americas {
+  color: #E5B38F;
+}
+
+.asia {
+  color: #C5D1FB;
+}
+
+.oceania {
+  color:  #FFF490;
+}
+
+.africa {
+  color: #D17A7A;
+}

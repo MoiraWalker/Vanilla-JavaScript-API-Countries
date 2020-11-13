@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div id="header-bar">
+    <a href="../index.html" id="home">Countries of the World</a>
+    <div id="menu-options">
+        <a href="../index.html" class="menu-option">Info</a>
+        <a href="country-list-page.html" class="menu-option">List</a>
+    </div>
+</div>
+
+<div id="worldmap-container">
+    <div id="worldmap-background">
+        <div id="worldmap">
+            <div id="countries">
+                <img src= "../assets/images/americas.svg" id="americas-image" class="country-image" alt="americas" >
+                <img src= "../assets/images/europe.svg" id="europe-image"  class="country-image" alt="europe" >
+                <img src= "../assets/images/africa.svg" id="africa-image" class="country-image"  alt="africa" >
+                <img src= "../assets/images/asia.svg" id="asia-image"  class="country-image" alt="asia" >
+                <img src= "../assets/images/oceania.svg" id="oceania-image"  class="country-image" alt="oceania" >
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="country-list-container">
+    <div id="country-list">
+        <h2>Country List</h2>
+        <div id="country-list-items"></div>
+    </div>
+</div>
+
+<script src="../node_modules/axios/dist/axios.min.js"></script>
+<script src="../js/country-list-page.js"></script>
+</body>
+</html>
